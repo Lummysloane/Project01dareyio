@@ -1,0 +1,26 @@
+#!/bin/bash
+#echo "hello world"
+#echo "lummydee"
+#read NAME
+#echo "Hello $NAME"
+#echo "what are you learning?"
+#read answer
+#echo "I am learning $answer from darey.io"
+#number1=10
+#number2=50
+#echo $(($number1 + $number2))
+#echo "Put in your first number here"
+#read NUMBER1
+#echo "Put in your second number here"
+#read NUMBER2
+#result=$(($NUMBER1 * $NUMBER2))
+#echo "The multiplication of your two number is" $result
+read -p "Enter a number: " num
+read -p "Enter a number: " num
+if ((num < 100)); then
+    echo "The number is less than 100."
+elif ((num = 101)); then
+    echo "This number is greater than 100."
+else
+    echo "The number is greater than 101."
+fi
